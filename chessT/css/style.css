@@ -1,0 +1,30 @@
+body{
+    background-image: url(../img/table.gif);
+}
+.chess{
+    width: 700px;
+    box-sizing: border-box;
+    background-color: aqua;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+}
+.row:after,.chess:after,.chess-in:after{
+    content:"";
+    display: block;
+    clear: both;
+    height: 0;
+}
+.row div{
+    width:12.5%;
+    height: 84px;
+    float: left;
+}
+.white{
+    background-color: #D58419;
+}
+.black{
+    background-color:#461800;
+}
+
